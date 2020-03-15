@@ -18,9 +18,7 @@
     align-items: center;
     /* 水平置中 */
     justify-items: center;
-
     border-radius: 10px;
-
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -30,7 +28,7 @@
     padding: 30px;
 }
 
-#result {
+#box #result {
     grid-column: 1 / 5;
     padding: 50px;
 }
