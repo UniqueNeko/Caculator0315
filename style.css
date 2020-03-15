@@ -7,8 +7,30 @@
 
 #box {
     background: #252525;
-    width: 400px;
-    height: 600px;
+    width: 500px;
+    height: 700px;
     margin: 100px auto 0;
-    color: white;
+    color: white;  
+    display: grid;
+    /* gtc 4 格，每格 1/4 */
+    grid-template-columns: repeat(4 , 1fr);
+    /* 垂直置中 */
+    align-items: center;
+    /* 水平置中 */
+    justify-items: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#box div {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 30px;
+}
+
+#result {
+    grid-column: 1 / 5;
+    padding: 50px;
 }
